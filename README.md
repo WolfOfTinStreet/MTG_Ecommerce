@@ -39,8 +39,14 @@ Login credentials for specific sites will also be required.
    |1437-1578| Compare TCG & CK Granularly            |
    |1579-1637| Create Personal Buylist on Cardsphere  |
 ## Market_Values.R
-   + Demonstrates the Average Card Value in all major formats.
-
+   |Lines    |                  Purpose                 |
+   |---------|------------------------------------------|
+   |1-75     | Needed Packages and Functions            |
+   |77-129   | Determining Card Legality by Format      |
+   |130-770  | Review Format Retail Avgs w/ ggplot      |
+   |770-1457 | Review Format Buylist Avgs w/ ggplot     |
+   |1458-1594| Merge Above Avgs w/ ggplot into one graph|
+   
 ## Arima_Attempt.R
    + Forecasting algorithms, Arima, Holts-Winter, and Feed Forward Neural Network for forecasting Buylist offers a week in advance. You will need the supplamental CSV provided altered to the start date of your data collection.
 
