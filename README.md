@@ -48,10 +48,24 @@ Login credentials for specific sites will also be required.
    |1458-1594| Merge Above Avgs w/ ggplot into one graph|
    
 ## Arima_Attempt.R
-   + Forecasting algorithms, Arima, Holts-Winter, and Feed Forward Neural Network for forecasting Buylist offers a week in advance. You will need the supplamental CSV provided altered to the start date of your data collection.
-
+   |Lines    |                  Purpose                 |
+   |---------|------------------------------------------|
+   |1-55     | Needed Packages and Functions            |
+   |56-154   | Prepare data in needed time series format|
+   |155-219  | Holts-Winter Forecast                    |
+   |220-293  | Feed Forward Neural Network Forecast     |
+   |294-374  | Arima Forecast                           |
+   |375-475  | Join Forecasts, choose by lowest MAPE    |
+   |476-531  | Growth/Decline Lists based of MAPE & RMSE|
+   
 ## CK_Closed_System.R
-   + Deep dive into Cardkingdom Deconstructing their throughput algorithm
+   |Lines    |                  Purpose                 |
+   |---------|------------------------------------------|
+   |1-51     | Needed Packages and Functions            |
+   |56-71    | Create Ranking Buckets for Buylist Demand|
+   |72-117   | Request API Data & Apply Ranking Buckets |
+   |118-166  | Scrape Cardkingdom Bestseller List       |
+   |167-253  | Back Calculate Throughput Algorithm      |
 
 ## Tokyo.R
    + Review Eastern Markets for global arbitrage opportunities
