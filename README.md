@@ -29,7 +29,7 @@ Login credentials for specific sites will also be required.
 
 # Script Order
 
-## Updated_Cron_Scrape.R
+### Updated_Cron_Scrape.R
    |Lines    |                 Purpose                |
    |---------|----------------------------------------|
    |1-50     | Needed Packages and Functions          |
@@ -38,7 +38,7 @@ Login credentials for specific sites will also be required.
    |997-1436 | Consolidate KPI's down to 4            |
    |1437-1578| Compare TCG & CK Granularly            |
    |1579-1637| Create Personal Buylist on Cardsphere  |
-## Market_Values.R
+### Market_Values.R
    |Lines    |                  Purpose                 |
    |---------|------------------------------------------|
    |1-75     | Needed Packages and Functions            |
@@ -47,7 +47,7 @@ Login credentials for specific sites will also be required.
    |770-1457 | Review Format Buylist Avgs w/ ggplot     |
    |1458-1594| Merge Above Avgs w/ ggplot into one graph|
    
-## Arima_Attempt.R
+### Arima_Attempt.R
    |Lines    |                  Purpose                 |
    |---------|------------------------------------------|
    |1-55     | Needed Packages and Functions            |
@@ -58,7 +58,7 @@ Login credentials for specific sites will also be required.
    |375-475  | Join Forecasts, choose by lowest MAPE    |
    |476-531  | Growth/Decline Lists based of MAPE & RMSE|
    
-## CK_Closed_System.R
+### CK_Closed_System.R
    |Lines    |                  Purpose                 |
    |---------|------------------------------------------|
    |1-51     | Needed Packages and Functions            |
@@ -67,18 +67,18 @@ Login credentials for specific sites will also be required.
    |118-166  | Scrape Cardkingdom Bestseller List       |
    |167-253  | Back Calculate Throughput Algorithm      |
 
-## Tokyo.R
+### Tokyo.R
    |Lines    |                  Purpose                 |
    |---------|------------------------------------------|
    |1-38     | Needed Packages and Functions            |
    |41-239   | Scrape Major Japanese Vendor Tokyomtg    |
    |241-278  | Analyze against US Markets for Arbitrage |
 
-## Scryfall_Acquisition.R & mtgjson_acquisition.R
+### Scryfall_Acquisition.R & mtgjson_acquisition.R
    + Obtains base level card information for connecting scrapes between all websites. mtgjson vastly outperforms scryfall in terms of time to complete, but the option is yours.
 
-## Bigquery_upload.R
+### Bigquery_upload.R
    + Transfer data from CSV trees to Bigquery Database
-## Decklist_Collector.R
+### Decklist_Collector.R
    + Review daily outputs from Wizards of the Coast to gauge player demand.
   
