@@ -37,7 +37,7 @@ Login credentials for specific sites will also be required.
    |449-996  | Create Analytical Reports For Each site|
    |997-1436 | Consolidate KPI's down to 4            |
    |1437-1578| Compare TCG & CK Granularly            |
-   |1579-1637| Create personal buylist on Cardsphere  |
+   |1579-1637| Create Personal Buylist on Cardsphere  |
 ## Market_Values.R
    + Demonstrates the Average Card Value in all major formats.
 
