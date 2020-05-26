@@ -1,6 +1,6 @@
 # MTG_Ecommerce
 
-Data Collection and Analysis for Magic, the Gathering (MTG) singles on the [secondary market](https://mtg.gamepedia.com/Secondary_market). Major trading card game websites such as [tcg player] (http://tcgplayer.com) and [CardKingdom] (http://cardkingdom.com) both present pricing and buylist information on a daily basis for all MTG cards. In these scripts we are scraping this pricing information, uploading to BigQuery, and analyzing the time series data that results to forecast retail, buylist, and inventory movements.
+Data Collection and Analysis for Magic, the Gathering (MTG) singles on the [secondary market](https://mtg.gamepedia.com/Secondary_market). Major trading card game websites such as [tcg player](http://tcgplayer.com) and [CardKingdom](http://cardkingdom.com) both present pricing and buylist information on a daily basis for all MTG cards. In these scripts we are scraping this pricing information, uploading to BigQuery, and analyzing the time series data that results to forecast retail, buylist, and inventory movements.
 
 Global Markets also present price discrepancies. Different markets value different cards at varying degrees. By reviewing these discrepancies on a daily basis we are able to capitalize on opportuniteis between markets and profit just by recognizing them as they occur.
 
