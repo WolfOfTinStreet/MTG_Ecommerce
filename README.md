@@ -6,21 +6,31 @@ Global Markets also present price discrepancies. Different markets value differe
 
 # Usage
 All of these scripts are written in R (Rstudio), and most will require some familiarization with Docker containers to recreate.
-For my Selenium servers, you will not be able to use my IP4's, you'll have to set up your own Docker containers and port into them.
-If Unfamiliar this tutorial can give you the basics for Docker and RSelenium as used.
+
 ```R
 remDr = remoteDriver(remoteServerAddr = "IP4", port = 4445L, browser = "chrome")
 remDr$open()
 ```
-Above IP4 will need to be inputed
+Above IP4 will need to be inputed according to your own Docker Containers.
 
-All "GMAIL" elements will need to be replaced with your personal gmail credentials
 ```R
 drive_auth(email = "GMAIL")
 drive_auth(use_oob=TRUE)
 ```
-In order to access your googledrive, your gmail will need to be provided above.
+All "GMAIL" elements will need to be replaced with your personal gmail credentials to read and write from your drive.
 
+```R
+username <- remDr$findElement(using = "id", value = "email")
+username$clearElement()
+username$sendKeysToElement(list("EMAIL"))
+
+passwd <- remDr$findElement(using = "id", value = "password")
+passwd$clearElement()
+passwd$sendKeysToElement(list("PASSWORD"))
+```
+Login credentials for specific sites will also be required. 
+
+With these inputs, scripts should run as is.
 # Script Rundown
 1) Updated_Cron_Scrape.R 
 <- Will provide all base data sets that others will utilize. Scrapes the desired sites and returns the pricing, buylist, and inventory levels.
