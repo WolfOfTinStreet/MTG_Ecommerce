@@ -29,7 +29,7 @@ Login credentials for specific sites will also be required.
 
 # Script Order
 
-1. Updated_Cron_Scrape.R
++ Updated_Cron_Scrape.R
    <- Will provide all base data sets that others will utilize. Scrapes the desired sites and returns the pricing, buylist, and inventory levels.
 
 2. Market_Values.R
