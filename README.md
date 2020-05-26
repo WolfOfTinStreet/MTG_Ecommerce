@@ -9,7 +9,6 @@ All of these scripts are written in R (Rstudio), and most will require some fami
 
 ```R
 remDr = remoteDriver(remoteServerAddr = "IP4", port = 4445L, browser = "chrome")
-remDr$open()
 ```
 Above IP4 will need to be inputed according to your own Docker Containers.
 
