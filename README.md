@@ -8,17 +8,17 @@ Global Markets also present price discrepancies. Different markets value differe
 All of these scripts are written in R (Rstudio), and most will require some familiarization with Docker containers to recreate.
 For my Selenium servers, you will not be able to use my IP4's, you'll have to set up your own Docker containers and port into them.
 If Unfamiliar this tutorial can give you the basics for Docker and RSelenium as used.
-'''
+```R
 remDr = remoteDriver(remoteServerAddr = "IP4", port = 4445L, browser = "chrome")
 remDr$open()
-'''
+```
 Above IP4 will need to be inputed
 
 All "GMAIL" elements will need to be replaced with your personal gmail credentials
-'''
+```R
 drive_auth(email = "GMAIL")
 drive_auth(use_oob=TRUE)
-'''
+```
 In order to access your googledrive, your gmail will need to be provided above.
 
 # Script Rundown
