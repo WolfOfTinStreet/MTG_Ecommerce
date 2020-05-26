@@ -34,8 +34,8 @@ Login credentials for specific sites will also be required.
    |---------|----------------------------------------|
    |1-50     | Needed Packages and Functions          |
    |51-448   | Data Scraping (Post, Rvest, RSelenium) |
-   |449-996  | Create Analytical Reports For Each site|
-   |997-1436 | Consolidate KPI's down to 4            |
+   |449-996  | Create Analytical Reports For Each Site|
+   |997-1436 | Consolidate KPI's Down to 4            |
    |1437-1578| Compare TCG & CK Granularly            |
    |1579-1637| Create Personal Buylist on Cardsphere  |
 ### Market_Values.R
@@ -51,12 +51,12 @@ Login credentials for specific sites will also be required.
    |Lines    |                  Purpose                 |
    |---------|------------------------------------------|
    |1-55     | Needed Packages and Functions            |
-   |56-154   | Prepare data in needed time series format|
+   |56-154   | Prepare Data in Needed Time Series Format|
    |155-219  | Holts-Winter Forecast                    |
    |220-293  | Feed Forward Neural Network Forecast     |
    |294-374  | Arima Forecast                           |
-   |375-475  | Join Forecasts, choose by lowest MAPE    |
-   |476-531  | Growth/Decline Lists based of MAPE & RMSE|
+   |375-475  | Join Forecasts, Choose By Lowest MAPE    |
+   |476-531  | Growth/Decline List Based Off MAPE & RMSE|
    
 ### CK_Closed_System.R
    |Lines    |                  Purpose                 |
