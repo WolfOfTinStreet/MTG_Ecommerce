@@ -33,11 +33,11 @@ Login credentials for specific sites will also be required.
    |Lines    |                 Purpose                |
    |---------|----------------------------------------|
    |1-50     | Needed Packages and Functions          |
-   |51-448   | Data Scraping                          |
+   |51-448   | Data Scraping (Post, Rvest, RSelenium) |
    |449-996  | Create Analytical Reports For Each site|
    |997-1436 | Consolidate KPI's down to 4            |
    |1437-1578| Compare TCG & CK Granularly            |
-   |1579-1637| RSelenium to create personal buylist   |
+   |1579-1637| Create personal buylist on Cardsphere  |
 ## Market_Values.R
    + Demonstrates the Average Card Value in all major formats.
 
