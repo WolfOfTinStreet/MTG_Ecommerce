@@ -52,5 +52,5 @@ Login credentials for specific sites will also be required.
 
 8. Decklist_Collector.R
    <- Review daily outputs from Wizards of the Coast to gauge player demand.
-   =======
+  
     > > > > > > > Use markdown in readme
