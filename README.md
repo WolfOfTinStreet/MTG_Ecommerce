@@ -30,7 +30,14 @@ Login credentials for specific sites will also be required.
 # Script Order
 
 ## Updated_Cron_Scrape.R
-   + Will provide all base data sets that others will utilize. Scrapes the desired sites and returns the pricing, buylist, and inventory levels.
+   |Lines    |                 Purpose                |
+   |---------|----------------------------------------|
+   |1-50     | Needed Packages and Functions          |
+   |51-448   | Data Scraping                          |
+   |449-996  | Create Analytical Reports For Each site|
+   |997-1436 | Consolidate KPI's down to 4            |
+   |1437-1578| Compare TCG & CK Granularly            |
+   |1579-1637| RSelenium to create personal buylist   |
 ## Market_Values.R
    + Demonstrates the Average Card Value in all major formats.
 
