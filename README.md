@@ -29,28 +29,24 @@ Login credentials for specific sites will also be required.
 
 # Script Order
 
-+ Updated_Cron_Scrape.R
+## Updated_Cron_Scrape.R
    + Will provide all base data sets that others will utilize. Scrapes the desired sites and returns the pricing, buylist, and inventory levels.
-
-+ Market_Values.R
+## Market_Values.R
    + Demonstrates the Average Card Value in all major formats.
 
-+ Arima_Attempt.R
+## Arima_Attempt.R
    + Forecasting algorithms, Arima, Holts-Winter, and Feed Forward Neural Network for forecasting Buylist offers a week in advance. You will need the supplamental CSV provided altered to the start date of your data collection.
 
-+ CK_Closed_System.R
+## CK_Closed_System.R
    + Deep dive into Cardkingdom Deconstructing their throughput algorithm
 
-+ Tokyo.R
+## Tokyo.R
    + Review Eastern Markets for global arbitrage opportunities
-
-+ Scryfall_Acquisition.R & mtgjson_acquisition.R
+## Scryfall_Acquisition.R & mtgjson_acquisition.R
    + Obtains base level card information for connecting scrapes between all websites. mtgjson vastly outperforms scryfall in terms of time to complete, but the option is yours.
 
-+ Bigquery_upload.R
+## Bigquery_upload.R
    + Transfer data from CSV trees to Bigquery Database
-
-+ Decklist_Collector.R
+## Decklist_Collector.R
    + Review daily outputs from Wizards of the Coast to gauge player demand.
   
-    > > > > > > > Use markdown in readme
