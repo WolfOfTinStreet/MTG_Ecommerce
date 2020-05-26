@@ -68,7 +68,12 @@ Login credentials for specific sites will also be required.
    |167-253  | Back Calculate Throughput Algorithm      |
 
 ## Tokyo.R
-   + Review Eastern Markets for global arbitrage opportunities
+   |Lines    |                  Purpose                 |
+   |---------|------------------------------------------|
+   |1-38     | Needed Packages and Functions            |
+   |41-239   | Scrape Major Japanese Vendor Tokyomtg    |
+   |241-278  | Analyze against US Markets for Arbitrage |
+
 ## Scryfall_Acquisition.R & mtgjson_acquisition.R
    + Obtains base level card information for connecting scrapes between all websites. mtgjson vastly outperforms scryfall in terms of time to complete, but the option is yours.
 
